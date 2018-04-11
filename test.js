@@ -1,4 +1,4 @@
-export default (state = 'conflict', action) => {
+export default (state = 'f9conflict', action) => {
   switch (action.type) {
     case 'f1':
       console.log('tata');
