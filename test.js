@@ -4,6 +4,8 @@ export default (state = 'tata', action) => {
       console.log('tata');
     case 'f4':
       console.log('f4');
+    case 'f5':
+      console.log('f5');
     default:
       return state;
   }
