@@ -1,7 +1,7 @@
-export default (state = 'toto', action) => {
+export default (state = 'tata', action) => {
   switch (action.type) {
-    case 'f2':
-      console.log('toto');
+    case 'f1':
+      console.log('tata');
     default:
       return state;
   }
