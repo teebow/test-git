@@ -1,4 +1,4 @@
-export default (state = '12conflict', action) => {
+export default (state = 'fpp3conflict', action) => {
 export default (state = 'f9conflict', action) => {
   switch (action.type) {
     case 'f1':
